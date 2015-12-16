@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- ==========================
+    	Meta Tags 
+    =========================== -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ==========================
+    	Title 
+    =========================== -->
+    <title>Demo | LyraSoft Shop</title>
+
+    <!-- ==========================
+    	Fonts
+    =========================== -->
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900,900italic&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,900,800' rel='stylesheet' type='text/css'>
+
+    <!-- ==========================
+    	CSS
+    =========================== -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="http://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/dragtable.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/owl.carousel.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/animate.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/color-switcher.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/custom.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/color/red.css" id="main-color" rel="stylesheet" type="text/css">
+
+    <!-- ==========================
+    	JS
+    =========================== -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+<!-- ==========================
+	SCROLL TOP - START
+=========================== -->
+<div id="scrolltop" class="hidden-xs"><i class="fa fa-angle-up"></i></div>
+<!-- ==========================
+	SCROLL TOP - END
+=========================== -->
+
+<!-- ==========================
+	HEADER - START
+=========================== -->
+
+<!-- TOP Start -->
+<div class="top-header hidden-xs">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5">
+                <ul class="list-inline contacts">
+                    <li><i class="fa fa-envelope"></i>service@lyrasoft.net</li>
+                    <li><i class="fa fa-phone"></i>+886-2-2747-6629</li>
+                </ul>
+            </div>
+            <div class="col-sm-7 text-right">
+                <ul class="list-inline links">
+                    <li><a href="#">My account</a></li>
+                    <li><a href="checkout.html">Checkout</a></li>
+                    <li><a href="wishlist.html">Wishlist (5)</a></li>
+                    <li><a href="#">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- TOP End -->
+
+
+<!--HEADER-->
+<header class="navbar navbar-default navbar-static-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="index.html" class="navbar-brand"><span>demo</span>LYRASHOP</a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><i class="fa fa-bars"></i></button>
+        </div>
+        <div class="navbar-collapse collapse">
+            <p class="navbar-text hidden-xs hidden-sm"></p>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown megamenu">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="300" data-close-others="true">Eshop</a>
+                    <ul class="dropdown-menu">
+
+                        <li class="col-sm-4 col-md-3">
+                            <ul class="list-unstyled">
+                                <li class="title">Women <span class="label label-info pull-right">30% OFF SALE</span></li>
+                                <li><a href="products.html">Jackets & Coats</a></li>
+                                <li><a href="products.html">Jumpers & cardigans</a></li>
+                                <li><a href="products.html">Jeans</a></li>
+                                <li><a href="products.html">Trousers</a></li>
+                                <li><a href="products.html">Dresses</a></li>
+                                <li><a href="products.html">Long Sleeve Tops</a></li>
+                            </ul>
+                        </li>
+                        <li class="col-sm-4 col-md-3">
+                            <ul class="list-unstyled">
+                                <li class="title">Accessories</li>
+                                <li><a href="products.html">Sunglasses</a></li>
+                                <li><a href="products.html">Watches</a></li>
+                                <li><a href="products.html">Umbrellas</a></li>
+                                <li><a href="products.html">Bags & Wallets</a></li>
+                                <li><a href="products.html">Fashion Jewellery</a></li>
+                                <li><a href="products.html">Belts</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="hidden-xs hidden-sm col-md-3">
+                            <img src="assets/images/megamenu.png" class="img-responsive center-block" alt="">
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="dropdown navbar-cart hidden-xs">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="300" data-close-others="true"><i class="fa fa-shopping-cart"></i></a>
+                    <ul class="dropdown-menu">
+
+                        <!-- CART ITEM - START -->
+                        <li>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <img src="assets/images/products/product-1.jpg" class="img-responsive" alt="">
+                                </div>
+                                <div class="col-sm-9">
+                                    <h4><a href="single-product.html">Fusce Aliquam</a></h4>
+                                    <p>1x - $20.00</p>
+                                    <a href="#" class="remove"><i class="fa fa-times-circle"></i></a>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- CART ITEM - END -->
+
+                        <!-- CART ITEM - START -->
+                        <li>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <img src="assets/images/products/product-2.jpg" class="img-responsive" alt="">
+                                </div>
+                                <div class="col-sm-9">
+                                    <h4><a href="single-product.html">Fusce Aliquam</a></h4>
+                                    <p>1x - $20.00</p>
+                                    <a href="#" class="remove"><i class="fa fa-times-circle"></i></a>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- CART ITEM - END -->
+
+                        <!-- CART ITEM - START -->
+                        <li>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <img src="assets/images/products/product-3.jpg" class="img-responsive" alt="">
+                                </div>
+                                <div class="col-sm-9">
+                                    <h4><a href="single-product.html">Fusce Aliquam</a></h4>
+                                    <p>1x - $20.00</p>
+                                    <a href="#" class="remove"><i class="fa fa-times-circle"></i></a>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- CART ITEM - END -->
+
+                        <!-- CART ITEM - START -->
+                        <li>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <a href="cart.html" class="btn btn-primary btn-block">View Cart</a>
+                                </div>
+                                <div class="col-sm-6">
+                                    <a href="checkout.html" class="btn btn-primary btn-block">Checkout</a>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- CART ITEM - END -->
+
+                    </ul>
+                </li>
+                <li class="dropdown navbar-search hidden-xs">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-search"></i></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <form>
+                                <div class="input-group input-group-lg">
+                                    <input type="email" class="form-control" placeholder="Search ...">
+                                        <span class="input-group-btn">
+                                            <button class="btn btn-primary" type="button">Search</button>
+                                        </span>
+                                </div>
+                            </form>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+<!-- ==========================
+	HEADER - END
+=========================== -->
+
+
+<div class="page-wrapper">
+    <!-- ==========================
+    	JUMBOTRON - START
+    =========================== -->
+    <section class="content jumbotron" style="margin-bottom:50px;">
+        <div id="homepage-3-carousel" class="nav-inside owl-animation">
+            <div class="item slide-1">
+                <div class="slide-mask"></div>
+                <div class="slide-body">
+                    <div class="container" style="display:none;">
+                        <h1 class="grey-background animation top-to-bottom"></h1>
+                        <div><h2 class="grey-background animation bottom-to-top delay-1"></h2></div>
+                    </div>
+                </div>
+            </div>
+            <div class="item slide-2">
+                <div class="slide-mask"></div>
+                <div class="slide-body">
+                    <div class="container" style="display:none;">
+                        <h1 class="color-background animation top-to-bottom"></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==========================
+    	JUMBOTRON - END
+    =========================== -->
+
+    <!-- ==========================
+    	GRID PRODUCTS - START
+    =========================== -->
+    <section class="content grid-products border-bottom">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xs-6 col-sm-3">
+                    <article class="product-item">
+                        <img src="assets/images/products/product-1.jpg" class="img-responsive" alt="">
+                        <h3><a href="single-product.html">狂野甜心 W鋼圈C-E罩內衣</a></h3>
+                        <div class="product-rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <span class="price">
+                        	<del><span class="amount">$36.00</span></del>
+                            <ins><span class="amount">$30.00</span></ins>
+                        </span>
+                    </article>
+                </div>
+
+                <div class="col-xs-6 col-sm-3">
+                    <article class="product-item">
+                        <img src="assets/images/products/product-2.jpg" class="img-responsive" alt="">
+                        <h3><a href="single-product.html">狂野甜心 W鋼圈A-E罩內衣</a></h3>
+                        <div class="product-rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <span class="price">
+                        	<del><span class="amount">$36.00</span></del>
+                            <ins><span class="amount">$30.00</span></ins>
+                        </span>
+                    </article>
+                </div>
+
+                <div class="col-xs-12 col-sm-3">
+                    <ul class="list-unstyled small-product">
+
+                        <!-- PRODUCT - START -->
+                        <li class="clearfix">
+                            <a href="single-product.html">
+                                <img src="assets/images/products/product-1.jpg" class="img-responsive" alt="">
+                                <h3>Fusce Aliquam</h3>
+                            </a>
+                            <div class="product-rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <span class="price">
+                                <del><span class="amount">$36.00</span></del>
+                            	<ins><span class="amount">$30.00</span></ins>
+                            </span>
+                        </li>
+                        <!-- PRODUCT - END -->
+
+                        <!-- PRODUCT - START -->
+                        <li class="clearfix">
+                            <a href="single-product.html">
+                                <img src="assets/images/products/product-2.jpg" class="img-responsive" alt="">
+                                <h3>Fusce Aliquam</h3>
+                            </a>
+                            <div class="product-rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <span class="price">
+                            	<del><span class="amount">$36.00</span></del>
+                                <ins><span class="amount">$30.00</span></ins>
+                            </span>
+                        </li>
+                        <!-- PRODUCT - END -->
+
+                        <!-- PRODUCT - START -->
+                        <li class="clearfix">
+                            <a href="single-product.html">
+                                <img src="assets/images/products/product-3.jpg" class="img-responsive" alt="">
+                                <h3>Fusce Aliquam</h3>
+                            </a>
+                            <div class="product-rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <span class="price">
+                            	<del><span class="amount">$36.00</span></del>
+                                <ins><span class="amount">$30.00</span></ins>
+                            </span>
+                        </li>
+                        <!-- PRODUCT - END -->
+
+                        <!-- PRODUCT - START -->
+                        <li class="clearfix">
+                            <a href="single-product.html">
+                                <img src="assets/images/products/product-3.jpg" class="img-responsive" alt="">
+                                <h3>Fusce Aliquam</h3>
+                            </a>
+                            <div class="product-rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <span class="price">
+                            	<del><span class="amount">$36.00</span></del>
+                                <ins><span class="amount">$30.00</span></ins>
+                            </span>
+                        </li>
+                        <!-- PRODUCT - END -->
+
+                    </ul>
+
+                </div>
+
+                <div class="col-xs-12 col-sm-3">
+                    <ul class="list-unstyled small-product">
+
+                        <!-- PRODUCT - START -->
+                        <li class="clearfix">
+                            <a href="single-product.html">
+                                <img src="assets/images/products/product-1.jpg" class="img-responsive" alt="">
+                                <h3>Fusce Aliquam</h3>
+                            </a>
+                            <div class="product-rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <span class="price">
+                                <del><span class="amount">$36.00</span></del>
+                            	<ins><span class="amount">$30.00</span></ins>
+                            </span>
+                        </li>
+                        <!-- PRODUCT - END -->
+
+                        <!-- PRODUCT - START -->
+                        <li class="clearfix">
+                            <a href="single-product.html">
+                                <img src="assets/images/products/product-2.jpg" class="img-responsive" alt="">
+                                <h3>Fusce Aliquam</h3>
+                            </a>
+                            <div class="product-rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <span class="price">
+                            	<del><span class="amount">$36.00</span></del>
+                                <ins><span class="amount">$30.00</span></ins>
+                            </span>
+                        </li>
+                        <!-- PRODUCT - END -->
+
+                        <!-- PRODUCT - START -->
+                        <li class="clearfix">
+                            <a href="single-product.html">
+                                <img src="assets/images/products/product-3.jpg" class="img-responsive" alt="">
+                                <h3>Fusce Aliquam</h3>
+                            </a>
+                            <div class="product-rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <span class="price">
+                            	<del><span class="amount">$36.00</span></del>
+                                <ins><span class="amount">$30.00</span></ins>
+                            </span>
+                        </li>
+                        <!-- PRODUCT - END -->
+
+                        <!-- PRODUCT - START -->
+                        <li class="clearfix">
+                            <a href="single-product.html">
+                                <img src="assets/images/products/product-3.jpg" class="img-responsive" alt="">
+                                <h3>Fusce Aliquam</h3>
+                            </a>
+                            <div class="product-rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <span class="price">
+                            	<del><span class="amount">$36.00</span></del>
+                                <ins><span class="amount">$30.00</span></ins>
+                            </span>
+                        </li>
+                        <!-- PRODUCT - END -->
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==========================
+    	GRID PRODUCTS - END
+    =========================== -->
+
+    <!-- ==========================
+    	CATEGORIES - START
+    =========================== -->
+
+    <!-- ==========================
+    	CATEGORIES - END
+    =========================== -->
+
+    <!-- ==========================
+    	BRANDS - START
+    =========================== -->
+    <section class="content brands pattern border-top">
+        <div class="container">
+            <div id="brands-carousel">
+                <div class="item"><a href="#"><img src="assets/images/clients/1.png" class="img-responsive" alt=""></a></div>
+                <div class="item"><a href="#"><img src="assets/images/clients/2.png" class="img-responsive" alt=""></a></div>
+                <div class="item"><a href="#"><img src="assets/images/clients/3.png" class="img-responsive" alt=""></a></div>
+                <div class="item"><a href="#"><img src="assets/images/clients/4.png" class="img-responsive" alt=""></a></div>
+                <div class="item"><a href="#"><img src="assets/images/clients/5.png" class="img-responsive" alt=""></a></div>
+                <div class="item"><a href="#"><img src="assets/images/clients/6.png" class="img-responsive" alt=""></a></div>
+                <div class="item"><a href="#"><img src="assets/images/clients/7.png" class="img-responsive" alt=""></a></div>
+            </div>
+        </div>
+    </section>
+    <!-- ==========================
+    	BRANDS - END
+    =========================== -->
+
+    <!-- ==========================
+    	OUR STORES - START
+    =========================== -->
+    <section class="content our-stores">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-lg-8">
+                    <h2 style="color:#555;">來我們這裡坐坐<a href="＃" class="btn btn-default btn-lg" style="color:#888";>Check More</a></h2>
+                    <div class="row">
+
+                        <!-- STORE - START -->
+                        <div class="col-sm-6">
+                            <div class="store">
+                                <h3>Taipei</h3>
+                                <ul class="list-unstyled">
+                                    <li>Rm. 5, 3F., No.123, Sec. 4, Bade Rd.</li>
+                                    <li>Songshan Dist., Taipei City 105, Taiwan (R.O.C.)</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- STORE - END -->
+
+                        <!-- STORE - START -->
+                        <div class="col-sm-6">
+                            <div class="store">
+                                <h3>Taipei</h3>
+                                <ul class="list-unstyled">
+                                    <li>Rm. 5, 3F., No.123, Sec. 4, Bade Rd.</li>
+                                    <li>Songshan Dist., Taipei City 105, Taiwan (R.O.C.)</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- STORE - END -->
+
+                    </div>
+                    <div class="row">
+
+                        <!-- STORE - START -->
+                        <div class="col-sm-6">
+                            <div class="store">
+                                <h3>Taipei</h3>
+                                <ul class="list-unstyled">
+                                    <li>Rm. 5, 3F., No.123, Sec. 4, Bade Rd.</li>
+                                    <li>Songshan Dist., Taipei City 105, Taiwan (R.O.C.)</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- STORE - END -->
+
+                        <!-- STORE - START -->
+                        <div class="col-sm-6">
+                            <div class="store">
+                                <h3>Taipei</h3>
+                                <ul class="list-unstyled">
+                                    <li>Rm. 5, 3F., No.123, Sec. 4, Bade Rd.</li>
+                                    <li>Songshan Dist., Taipei City 105, Taiwan (R.O.C.)</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- STORE - END -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==========================
+    	OUR STORES - END
+    =========================== -->
+
+    <!-- ==========================
+    	SMALL PRODUCTS - START
+    =========================== -->
+    <section class="content small-products">
+        <div class="container">
+            <div class="row">
+
+                <!-- COLUMN - START -->
+                <div class="col-sm-4 hidden-xs">
+                    <h2>On Sale Products</h2>
+                    <ul class="list-unstyled small-product">
+
+                        <!-- PRODUCT - START -->
+                        <li class="clearfix">
+                            <a href="single-product.html">
+                                <img src="assets/images/products/product-1.jpg" class="img-responsive" alt="">
+                                <h3>Fusce Aliquam</h3>
+                            </a>
+                            <span class="price">
+                                <del><span class="amount">$36.00</span></del>
+                                <ins><span class="amount">$30.00</span></ins>
+                            </span>
+                        </li>
+                        <!-- PRODUCT - END -->
+
+                        <!-- PRODUCT - START -->
+                        <li class="clearfix">
+                            <a href="single-product.html">
+                                <img src="assets/images/products/product-2.jpg" class="img-responsive" alt="">
+                                <h3>Fusce Aliquam</h3>
+                            </a>
+                            <span class="price">
+                                <del><span class="amount">$36.00</span></del>
+                                <ins><span class="amount">$30.00</span></ins>
+                            </span>
+                        </li>
+                        <!-- PRODUCT - END -->
+
+                        <!-- PRODUCT - START -->
+                        <li class="clearfix">
+                            <a href="single-product.html">
+                                <img src="assets/images/products/product-3.jpg" class="img-responsive" alt="">
+                                <h3>Fusce Aliquam</h3>
+                            </a>
+                            <span class="price">
+                                <del><span class="amount">$36.00</span></del>
+                                <ins><span class="amount">$30.00</span></ins>
+                            </span>
+                        </li>
+                        <!-- PRODUCT - END -->
+
+                    </ul>
+                </div>
+                <!-- COLUMN - END -->
+
+                <!-- COLUMN - START -->
+                <div class="col-sm-4 hidden-xs">
+                    <h2>Featured Products</h2>
+                    <ul class="list-unstyled small-product">
+
+                        <!-- PRODUCT - START -->
+                        <li class="clearfix">
+                            <a href="single-product.html">
+                                <img src="assets/images/products/product-1.jpg" class="img-responsive" alt="">
+                                <h3>Fusce Aliquam</h3>
+                            </a>
+                            <span class="price">
+                                <ins><span class="amount">$30.00</span></ins>
+                            </span>
+                        </li>
+                        <!-- PRODUCT - END -->
+
+                        <!-- PRODUCT - START -->
+                        <li class="clearfix">
+                            <a href="single-product.html">
+                                <img src="assets/images/products/product-2.jpg" class="img-responsive" alt="">
+                                <h3>Fusce Aliquam</h3>
+                            </a>
+                            <span class="price">
+                                <ins><span class="amount">$30.00</span></ins>
+                            </span>
+                        </li>
+                        <!-- PRODUCT - END -->
+
+                        <!-- PRODUCT - START -->
+                        <li class="clearfix">
+                            <a href="single-product.html">
+                                <img src="assets/images/products/product-3.jpg" class="img-responsive" alt="">
+                                <h3>Fusce Aliquam</h3>
+                            </a>
+                            <span class="price">
+                                <ins><span class="amount">$30.00</span></ins>
+                            </span>
+                        </li>
+                        <!-- PRODUCT - END -->
+
+                    </ul>
+                </div>
+                <!-- COLUMN - END -->
+
+                <!-- COLUMN - START -->
+                <div class="col-sm-4 hidden-xs">
+                    <h2>Top Rated Products</h2>
+                    <ul class="list-unstyled small-product">
+
+                        <!-- PRODUCT - START -->
+                        <li class="clearfix">
+                            <a href="single-product.html">
+                                <img src="assets/images/products/product-1.jpg" class="img-responsive" alt="">
+                                <h3>Fusce Aliquam</h3>
+                            </a>
+                            <div class="product-rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <span class="price">
+                                <ins><span class="amount">$30.00</span></ins>
+                            </span>
+                        </li>
+                        <!-- PRODUCT - END -->
+
+                        <!-- PRODUCT - START -->
+                        <li class="clearfix">
+                            <a href="single-product.html">
+                                <img src="assets/images/products/product-2.jpg" class="img-responsive" alt="">
+                                <h3>Fusce Aliquam</h3>
+                            </a>
+                            <div class="product-rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <span class="price">
+                                <ins><span class="amount">$30.00</span></ins>
+                            </span>
+                        </li>
+                        <!-- PRODUCT - END -->
+
+                        <!-- PRODUCT - START -->
+                        <li class="clearfix">
+                            <a href="single-product.html">
+                                <img src="assets/images/products/product-3.jpg" class="img-responsive" alt="">
+                                <h3>Fusce Aliquam</h3>
+                            </a>
+                            <div class="product-rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <span class="price">
+                                <ins><span class="amount">$30.00</span></ins>
+                            </span>
+                        </li>
+                        <!-- PRODUCT - END -->
+
+                    </ul>
+                </div>
+                <!-- COLUMN - END -->
+
+            </div>
+        </div>
+    </section>
+    <!-- ==========================
+	   SMALL PRODUCTS - END
+   =========================== -->
+
+    <!-- ==========================
+    	FOOTER - START
+    =========================== -->
+    <footer class="navbar navbar-default">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 col-xs-6">
+                    <div class="footer-widget footer-widget-contacts">
+                        <h4>Contacts</h4>
+                        <ul class="list-unstyled">
+                            <li><i class="fa fa-envelope"></i> service@lyrasoft.net</li>
+                            <li><i class="fa fa-phone"></i> 2747-6629 </li>
+                            <li><i class="fa fa-map-marker"></i></li>
+                            <li class="social">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-tumblr"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <div class="footer-widget footer-widget-links">
+                        <h4>Information</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#">About Shop</a></li>
+                            <li><a href="#">Our Stores</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">My account</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="footer-bottom">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <p class="copyright">© Lyrasoft co. 2015 All right reserved.</p>
+                        <p class="copyright">Designed by Stuart.SHY</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ==========================
+    	FOOTER - END 
+    =========================== -->
+
+</div> <!-- PAGE - END -->
+
+<!-- ==========================
+ JS
+=========================== -->
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="http://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=true"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/bootstrap-hover-dropdown.min.js"></script>
+<script src="assets/js/SmoothScroll.js"></script>
+<script src="assets/js/jquery.dragtable.js"></script>
+<script src="assets/js/jquery.card.js"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
+<script src="assets/js/twitterFetcher_min.js"></script>
+<script src="assets/js/color-switcher.js"></script>
+<script src="assets/js/custom.js"></script>
+</body>
+</html>
